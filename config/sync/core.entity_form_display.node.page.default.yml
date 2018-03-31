@@ -3,11 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_hero
-    - field.field.node.page.field_quote
     - node.type.page
   module:
-    - paragraphs
     - path
 _core:
   default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
@@ -22,30 +19,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_hero:
-    type: entity_reference_paragraphs
-    weight: 1
-    settings:
-      title: 'Create Hero content'
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: hero
-    third_party_settings: {  }
-    region: content
-  field_quote:
-    type: entity_reference_paragraphs
-    weight: 2
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: quote
-    third_party_settings: {  }
-    region: content
   path:
     type: path
     weight: 7

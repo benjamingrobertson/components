@@ -3,12 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_hero
-    - field.field.node.page.field_quote
     - node.type.page
   module:
     - ds
-    - entity_reference_revisions
     - user
 third_party_settings:
   ds:
@@ -22,42 +19,12 @@ third_party_settings:
       content:
         - field_hero
         - field_quote
-        - links
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
-content:
-  field_hero:
-    type: entity_reference_revisions_entity_view
-    weight: 0
-    label: hidden
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings:
-      ds:
-        ft:
-          id: default
-          settings:
-            lb: ''
-            lb-col: false
-            classes: {  }
-    region: content
-  field_quote:
-    type: entity_reference_revisions_entity_view
-    weight: 1
-    label: hidden
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    region: content
-  links:
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden: {  }
+content: {  }
+hidden:
+  links: true
