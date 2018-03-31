@@ -39,9 +39,7 @@ lando composer install
 
 6. Install Drupal
 
-```
-lando drush site-install config_installer --account-name=admin --account-pass=admin --db-url='mysql://drupal8:drupal8@database/drupal8' --site-name=Components
-```
+`lando drush site-install config_installer --account-name=admin --account-pass=admin --db-url='mysql://drupal8:drupal8@database/drupal8' --site-name=Components`
 
 7. Train your dragon.
 
