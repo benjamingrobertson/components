@@ -43,6 +43,11 @@ lando composer install
 
 7. Train your dragon.
 
-## Training Documentation
+## Enable the use of field templates within Display Suite
+* Click Structure | Display Suite | Settings
+* Under Field Templates check the box for **Enable Field Templates**
+* Click **Save configuration**
 
-[Training material](https://mariohernandez.gitbooks.io/components/content/), including step-by-step exercises, are available as a gitbook.  Proceed to the documentation after completing the local environment setup instructions above.
+<!-- ## Training Documentation
+
+[Training material](https://mariohernandez.gitbooks.io/components/content/), including step-by-step exercises, are available as a gitbook.  Proceed to the documentation after completing the local environment setup instructions above. -->
