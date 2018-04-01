@@ -48,6 +48,8 @@ lando composer install
 * Under Field Templates check the box for **Enable Field Templates**
 * Click **Save configuration**
 
-<!-- ## Training Documentation
 
-[Training material](https://mariohernandez.gitbooks.io/components/content/), including step-by-step exercises, are available as a gitbook.  Proceed to the documentation after completing the local environment setup instructions above. -->
+## Training Material (work in progress)
+
+For your convenience we have compiled [all training material](https://mariohernandez.gitbooks.io/components/content/), including step by step exercises in a gitbook.
+This will be the official material we will use during training and it's currently being tested and refined.
