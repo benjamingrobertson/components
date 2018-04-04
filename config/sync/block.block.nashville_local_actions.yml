@@ -8,8 +8,8 @@ _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: nashville_local_actions
 theme: nashville
-region: content
-weight: -20
+region: highlighted
+weight: -30
 provider: null
 plugin: local_actions_block
 settings:

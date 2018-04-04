@@ -8,8 +8,8 @@ _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: drupalcon_local_actions
 theme: drupalcon
-region: content
-weight: -20
+region: highlighted
+weight: -30
 provider: null
 plugin: local_actions_block
 settings:
