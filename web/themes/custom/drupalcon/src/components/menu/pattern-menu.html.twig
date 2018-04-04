@@ -1,17 +1,18 @@
 <nav class="main-nav">
   <ul {{ attributes.addClass('menu') }}>
     {% for link in links %}
+      {% set attributes = create_attribute({}) %}
       {%
         set classes = [
           'menu-item',
-          item.is_expanded ? 'menu-item--expanded',
-          item.is_collapsed ? 'menu-item--collapsed',
-          item.in_active_trail ? 'menu-item--active-trail',
+          link.is_expanded ? 'menu-item--expanded',
+          link.is_collapsed ? 'menu-item--collapsed',
+          link.in_active_trail ? 'menu-item--active-trail',
         ]
       %}
-    <li {{ link.attributes.addClass(classes) }}>
-      {{ link(link.title, link.url) }}
-    </li>
+      <li {{ attributes.addClass(classes) }}>
+        {{ link(link.title, link.url) }}
+      </li>
     {% endfor %}
   </ul>
 </nav>
