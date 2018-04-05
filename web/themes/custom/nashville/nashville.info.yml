@@ -18,6 +18,7 @@ component-libraries:
   nashville:
     paths:
       - src/components
+      - src/drupal
       - src/layouts
       - src/templates
 
