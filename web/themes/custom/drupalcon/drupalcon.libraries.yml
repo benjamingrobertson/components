@@ -3,16 +3,13 @@ global:
     base:
       src/global/typography.css: {}
       src/global/base.css: {}
+    layout:
+      src/drupal/css/section.css: {}
 
 webfonts:
   css:
     theme:
       'https://fonts.googleapis.com/css?family=Open+Sans|Merriweather': { type: external, minified: true }
-
-messages:
-  css:
-    component:
-      src/drupal/css/messages.css: {}
 
 messages:
   css:

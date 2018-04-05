@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Styles section layouts.
+ */
+
+.section {
+  padding: 0 15px;
+}
+
+.section__inner {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.section--full-width {
+  padding: 0;
+}
+
+.section--full-width .section__inner {
+  max-width: none;
+}
+
+.section--content .section__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.with-sidebar-first .section__layout-content,
+.with-sidebar-second .section__layout-content {
+  order: 0;
+  width: 100%;
+}
+
+.section__layout-sidebar-first {
+  order: 1;
+  width: 100%;
+}
+
+.section__layout-sidebar-second {
+  order: 2;
+  width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .with-sidebar-first .section__layout-content,
+  .with-sidebar-second .section__layout-content {
+    order: 1;
+    width: 73%;
+  }
+
+  .with-sidebar-first.with-sidebar-second .section__layout-content {
+    width: 48%;
+  }
+
+  .section__layout-sidebar-first {
+    order: 0;
+    width: 23%;
+  }
+
+  .section__layout-sidebar-second {
+    width: 23%;
+  }
+}
