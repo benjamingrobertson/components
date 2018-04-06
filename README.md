@@ -10,20 +10,22 @@ If you already have a system for creating a new Drupal 8 site locally, you can g
 1. Download and install the latest version of Drupal 8
 2. Download and enable the following modules and their dependencies:
     * [Components Libraries](https://www.drupal.org/project/components)
-    * [UI_Patterns](https://www.drupal.org/project/ui_patterns) (enable all submodules)
+    * [UI_Patterns](https://www.drupal.org/project/ui_patterns) (enable all submodules except field groups)
     * [Display Suite](https://www.drupal.org/project/ds)
     * [Paragraphs](https://www.drupal.org/project/paragraphs)
     * [Entity Reference Revisions](https://www.drupal.org/project/entity_reference_revisions)
     * [Devel](https://www.drupal.org/project/devel)
     * [Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
 
-3. Clone or download this repo
+3. Clone or download this repo anywhere on your machine
 ```
 git clone https://github.com/mariohernandez/components
 ```
 
 4. Copy the **nashville** theme from the repo into your drupal's `/themes/custom/`
 5. Make the **nashville** theme your default theme
+
+
 
 ## Option 2 (Advanced)
 
