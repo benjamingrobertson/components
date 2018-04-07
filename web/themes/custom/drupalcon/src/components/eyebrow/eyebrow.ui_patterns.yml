@@ -6,7 +6,7 @@ eyebrow:
       type: text
       label: Eyebrow
       description: field for eyebrow pattern
-      preview: Mark Casias
+      preview: Marc Casias
   libraries:
     - eyebrow:
         css:
