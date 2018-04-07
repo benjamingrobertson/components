@@ -5,7 +5,7 @@ A training workshop for people who develop websites using the component based ap
 Before anything else, follow these steps to get your local envrionment setup.
 
 ## Option 1 (Basic)
-If you already have a system for creating a new Drupal 8 site locally, you can go ahead and do so and follow these steps:
+If you already have a system for creating a new Drupal 8 site locally (i.e. MAMP, LAMP, WAMP, AcquiaDev Desktop, etc.), you can go ahead and use that then follow these instructions:
 
 1. Download and install the latest version of Drupal 8
 2. Download and enable the following modules and their dependencies:
@@ -23,7 +23,10 @@ git clone https://github.com/mariohernandez/components
 ```
 
 4. Copy the **nashville** theme from the repo into your drupal's `/themes/custom/`
+
 5. Make the **nashville** theme your default theme
+
+6. Clear your caches.
 
 
 
