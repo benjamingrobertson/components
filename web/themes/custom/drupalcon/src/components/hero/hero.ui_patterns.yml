@@ -9,11 +9,18 @@ hero:
       preview:
         type: pattern_preview
         id: heading
+    eyebrow:
+      type: text
+      label: Hero eyebrow
+      description: hero eyebrow
+      preview:
+        type: pattern_preview
+        id: eyebrow
     body:
       type: text
       label: Hero body
       description: Hero body text
-      preview: 
+      preview:
         type: pattern_preview
         id: body
     image:
@@ -28,7 +35,7 @@ hero:
     button:
       label: Button
       description: Hero button
-      preview: 
+      preview:
         type: pattern_preview
         id: button
   libraries:

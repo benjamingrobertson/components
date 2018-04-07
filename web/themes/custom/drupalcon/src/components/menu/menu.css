@@ -16,7 +16,14 @@
 }
 
 .main-nav a {
+  color: #444;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
+.main-nav a:focus,
+.main-nav a:hover {
+  text-decoration: underline;
 }

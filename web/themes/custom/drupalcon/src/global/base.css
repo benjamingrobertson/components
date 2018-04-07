@@ -6,3 +6,65 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body.page-node-type-page {
+  background-image: url('assets/bg-vertical-lines.svg');
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+a {
+  color: #1469a3;
+  transition: color 250ms ease-in;
+}
+
+a:focus,
+a:hover {
+  color: #0086e0;
+  text-decoration: none;
+}
+
+fieldset {
+  border: 1px solid #444;
+
+  margin: 0 0 24px;
+  padding: 12px;
+}
+
+fieldset legend {
+  color: #777;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+hr {
+  background-color: #888;
+  border: 0;
+  height: 1px;
+  margin: 36px 0;
+}
+
+table {
+  border: 1px solid #888;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid #888;
+  padding: 5px;
+  vertical-align: top;
+  text-align: left;
+}

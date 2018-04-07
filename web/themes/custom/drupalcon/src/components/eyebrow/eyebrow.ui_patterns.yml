@@ -1,0 +1,14 @@
+eyebrow:
+  label: Eyebrow
+  description: Basic eyebrow pattern
+  fields:
+    eyebrow:
+      type: text
+      label: Eyebrow
+      description: field for eyebrow pattern
+      preview: Mark Casias
+  libraries:
+    - eyebrow:
+        css:
+          component:
+            eyebrow.css: {}
