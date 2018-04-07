@@ -1,10 +1,10 @@
 heading:
   label: Heading
-  description: A simple heading pattern
+  description: Basic headign pattern
   fields:
     title:
       type: text
-      label: Title field
+      label: Heading
       description: Title field for heading pattern
       preview: The Beautiful Scape
   libraries:

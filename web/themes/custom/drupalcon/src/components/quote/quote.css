@@ -9,20 +9,16 @@
   margin: 0 auto;
 }
 
-.quote__text {
+.quote__text,
+.quote__text .body-text {
   font-family: "Merriweather", Georgia, serif;
   font-size: 1.5rem;
   line-height: 1.5;
-  margin: 0 auto 15px;
+  margin-bottom: 15px;
 }
 
 .quote__author {
-  color: #888;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 1.3;
-  text-transform: uppercase;
+  display: block;
   padding-bottom: 70px;
   position: relative;
 }
@@ -36,4 +32,13 @@
   position: absolute;
   width: 2px;
   height: 50px;
+}
+
+.quote__author,
+.quote__author .eyebrow {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
 }

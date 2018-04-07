@@ -2,16 +2,20 @@ quote:
   label: Quote
   description: A simple quote pattern
   fields:
-    author:
+    quote_text:
       type: text
-      label: Quote author
+      label: Title field
+      description: Title field for quote pattern
+      preview:
+        type: pattern_preview
+        id: body
+    quote_author:
+      type: text
+      label: Author name
       description: Name of quote author
-      preview: John Smith
-    body:
-      type: text
-      label: Quote body
-      description: Quote body text
-      preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+      preview:
+        type: pattern_preview
+        id: eyebrow
   libraries:
     - quote:
         css:
