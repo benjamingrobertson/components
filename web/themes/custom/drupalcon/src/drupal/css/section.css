@@ -13,20 +13,13 @@
   width: 100%;
 }
 
-.section--full-width {
-  padding: 0;
-}
-
-.section--full-width .section__inner {
-  max-width: none;
-}
-
 .section--content .section__inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+.section__layout-content,
 .with-sidebar-first .section__layout-content,
 .with-sidebar-second .section__layout-content {
   order: 0;

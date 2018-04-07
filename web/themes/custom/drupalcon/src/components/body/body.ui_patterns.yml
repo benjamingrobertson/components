@@ -1,6 +1,6 @@
 body:
   label: Body
-  description: Body field for hero
+  description: Body text
   fields:
     body:
       type: text

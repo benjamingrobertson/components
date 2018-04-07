@@ -8,7 +8,7 @@ image:
       description: Hero image
       preview:
         theme: image
-        uri: /themes/custom/drupalcon/src/components/hero/assets/surf.jpg
+        uri: /themes/custom/drupalcon/src/components/image/assets/surf.jpg
         width: 960
         attributes: {alt: "Surfing person"}
   libraries:
