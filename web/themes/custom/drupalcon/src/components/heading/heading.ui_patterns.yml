@@ -1,6 +1,6 @@
 heading:
   label: Heading
-  description: Basic headign pattern
+  description: Basic heading pattern
   fields:
     title:
       type: text
