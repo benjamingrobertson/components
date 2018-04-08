@@ -38,12 +38,6 @@ hero:
       preview:
         type: pattern_preview
         id: button
-    quote:
-      label: Quote
-      description: Hero quote
-      preview:
-        type: pattern_preview
-        id: quote
   libraries:
     - hero:
         css:
