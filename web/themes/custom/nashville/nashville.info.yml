@@ -9,6 +9,7 @@ core: 8.x
 # Libraries
 libraries:
   - nashville/global
+  - nashville/webfonts
 
 # This section is used by the contrib module, Component Libraries. It allows you
 # to reference .twig files in your components/ directory by using the Twig namespace:
